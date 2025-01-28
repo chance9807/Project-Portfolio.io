@@ -37,7 +37,7 @@ ul.contact-info {
     font-size: 1.2rem;
 }
 
-.contact-info li {
+.contact-info .contact-item {
     margin: 20px 0;
     padding: 10px;
     border: 2px solid #333;
@@ -47,10 +47,10 @@ ul.contact-info {
     justify-content: space-between;
 }
 
-/* Specific styles for email and LinkedIn to remove gray background */
+/* Remove gray background for email and LinkedIn */
 .contact-info .contact-item:nth-child(1),
 .contact-info .contact-item:nth-child(3) {
-    background-color: #fdfcf8; /* Match the overall background color */
+    background-color: transparent;
 }
 
 .contact-info i {
