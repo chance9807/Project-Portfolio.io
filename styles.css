@@ -1,5 +1,53 @@
+/* Importing a classic font */
+@import url('https://fonts.googleapis.com/css2?family=Garamond&display=swap');
+
 body {
+    font-family: 'Garamond', serif;
+    background: linear-gradient(to bottom right, #fdfcf8, #f5f3ef);
+    color: #333;
     margin: 0;
-    background: pink;
+    padding: 50px;
     text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+ul.contact-info {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin: 20px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info i {
+    margin-right: 10px;
+    color: #666;
+}
+
+.contact-info a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: #555;
+}
+
+strong {
+    font-weight: bold;
 }
